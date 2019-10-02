@@ -1,0 +1,34 @@
+html {
+    max-height: 100%;
+    max-width: 100%;
+    font-family: sans-serif;
+    line-height: 1.15;
+    font-size: calc(100vw / 31);
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+.App-header {
+    background-color: #b3b3b3;
+    height: 1rem;
+    color: white;
+    display: inline-grid;
+    grid-template-columns: 40% 60%;
+    width: 100%;
+}
+.App-logo {
+    float: left;
+    height: 0.7rem;
+    padding: 0.2rem;
+  }
+
+  .App-name {
+    align-content: center;
+    color: #3a4758;
+    padding: 1rem;
+    padding: 0.2rem;
+    font-size: 0.7rem;
+}

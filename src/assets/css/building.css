@@ -1,0 +1,40 @@
+.app-sec {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.building-con {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: calc(70vh);
+    overflow: scroll;
+    
+}
+
+.building-con::-webkit-scrollbar { width: 0 !important }
+
+.block-div {
+    width: 1rem;
+    height: 1rem;
+    border: 0.1px solid #000;
+}
+
+.drag-con {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: calc(22vh);
+}
+
+.drag-con img {
+    height: 4rem;
+    width: 4rem;
+    padding-bottom: 0.5rem;
+}
+
+.blk-img {
+    width: 1rem;
+    height: 1rem;
+}
